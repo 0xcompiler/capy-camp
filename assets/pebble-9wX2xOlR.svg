@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<defs><filter id="felt" x="-4%" y="-4%" width="108%" height="108%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="11" result="n"/><feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .6 0 0 0 -.2" result="d"/><feComposite in="d" in2="SourceAlpha" operator="in" result="t"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="t"/></feMerge></filter></defs>
+<ellipse cx="128" cy="196" rx="70" ry="10" fill="#14302a" opacity=".25"/>
+<g filter="url(#felt)"><circle cx="128" cy="124" r="70" fill="#f1e2bf"/></g>
+<circle cx="128" cy="124" r="52" fill="none" stroke="#c9b285" stroke-width="7"/>
+<g fill="#7d6a45"><circle cx="110" cy="106" r="9"/><circle cx="146" cy="106" r="9"/><circle cx="110" cy="142" r="9"/><circle cx="146" cy="142" r="9"/></g>
+<path d="M110 106L146 142M146 106L110 142" stroke="#c8562d" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+<defs><filter id="felt" x="-4%" y="-4%" width="108%" height="108%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" seed="11" result="n"/><feColorMatrix in="n" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .6 0 0 0 -.2" result="d"/><feComposite in="d" in2="SourceAlpha" operator="in" result="t"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="t"/></feMerge></filter></defs>
+<g filter="url(#felt)"><circle cx="32" cy="36" r="23" fill="#f0a52e"/><path d="M32 13c2-6 9-8 15-5-2 6-9 9-15 5Z" fill="#4f9150"/></g>
+<circle cx="32" cy="36" r="17" fill="none" stroke="#ffd98a" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>
